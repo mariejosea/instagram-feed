@@ -1,0 +1,79 @@
+body {
+    background: rgb(233, 233, 233);
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 15px;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;  
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 550px;
+    background: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.header {
+    display: flex;
+    background: white;
+    width: 450px;
+    height: 55px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.title {
+    width: 200px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+}
+.date {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Arimo', sans-serif;
+    color: lightgrey;
+}
+div[class*='image'] {
+    background-size: cover;
+    width: 450px;
+    height: 390px;
+    justify-content: center;
+}
+.image-1 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501__340.jpg");
+}
+.image-2 {
+    background-image: url("https://i.pinimg.com/736x/3e/6d/6b/3e6d6bfc95af91b97b80ea5ebcb8fa62.jpg");
+}
+.image-3 {
+    background-image: url("https://www.derbycityweekend.com/wp-content/uploads/2019/03/rose-flower-pexels.jpg");
+}
+.image-4 {
+    background-image: url("https://pbs.twimg.com/media/DkBASc7WwAASj3R.jpg");
+}
+.post h2, p {
+    padding: 20px;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+.comment {
+    background: white;
+    width: 450px;
+    height: 100px;
+}
